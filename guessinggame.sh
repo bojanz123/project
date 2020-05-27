@@ -1,5 +1,5 @@
 #!/bin/bash bash
-# File: pogadjanje.sh
+# File: guessinggame.sh
 
 function welcome {
 echo "broj fajlova u direktorijumu"
