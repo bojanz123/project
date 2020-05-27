@@ -20,5 +20,5 @@ until [[ $response -eq $nooffiles ]]; do
 	fi
 done
 
-echo "Pogodjen je pravi broj, $response, Bravo."
+echo "Pogodjen je pravi broj, $response."
 echo "Kraj"
