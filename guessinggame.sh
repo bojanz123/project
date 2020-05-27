@@ -2,7 +2,7 @@
 # File: guessinggame.sh
 
 function welcome {
-echo "How many files are there in current directory?"
+echo "broj fajlova u direktorijumu"
 }
 
 welcome
@@ -13,12 +13,12 @@ until [[ $response -eq $nooffiles ]]; do
 	read response
 	if [[ $response -gt $nooffiles ]]
 	then
-		echo "You entered $response, which is greater than the requested number, try again"
+		echo " $response, je manji on trazenog broja, try again"
 	elif [[ $response -lt $nooffiles ]]
 	then
-		echo "You entered $response, which is lower than the requested numner, try again"
+		echo " $response, je manji od trazenog broja, try again"
 	fi
 done
 
-echo "You have guessed the right number, $response, Bravo."
-echo "End Program."
+echo "Pogodjen je pravi broj, $response, Bravo."
+echo "Kraj"
